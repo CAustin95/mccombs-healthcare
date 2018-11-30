@@ -1,0 +1,60 @@
+CREATE DATABASE McCombs;
+SELECT DATABASE();
+USE McCombs;
+
+CREATE TABLE Articles (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+DESCRIBE Articles;
+
+CREATE TABLE HealthCommunications (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE HealthDisparities (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE ProcessImprovement (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE HealthInformationTechnology (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE PatientSafety&QualityCare (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE HealthDesign (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE HealthcareLaw&Policy (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+
+-----------------------------------------------------------------------Had to edit---------------------------------------------------------------------------------------
+
+
+CREATE TABLE HealthcareLawPolicy (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE Biomedical&MedicalDevices (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+
+----------------------------------------------------------------------Had to edit again-------------------------------------------------------------------
+
+
+CREATE TABLE BiomedicalMedicalDevices (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE DigitalHealth (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE HealthcareEntrepreneurship (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE BiotechnologyInnovation (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+CREATE TABLE PharmaceuticalInnovation (Title TEXT(65535), PrimaryAuthor TEXT
+(65535), PrimaryInstitution TEXT(65535), PrimaryDepartment TEXT(65535), SecondaryAuthor TEXT(65535), SecondaryInstitution TEXT(65535), SecondaryDepartment TEXT(65535), TertiaryAuthor TEXT(65535), TertiaryInstitution TEXT(65535), TertiaryDepartment TEXT(65535), Topics TEXT(65535));
+
+SHOW TABLES

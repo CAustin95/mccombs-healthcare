@@ -1,0 +1,26 @@
+---Column Year and Primary Key Addition---
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+ALTER TABLE articles ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthcommunications ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthdisparities ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE processimprovement ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthinformationtechnology ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthdesign ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthcarelawpolicy ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE biomedicalmedicaldevices ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE digitalhealth ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthcareentrepreneurship ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE biotechnologyinnovation ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE pharmaceuticalinnovation ADD COLUMN Year INT NOT NULL AUTO_INCREMENT PRIMARY KEY;

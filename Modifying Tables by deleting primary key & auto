@@ -1,0 +1,50 @@
+---Modifying Tables by deleting primary key & auto increment from Year column and adding them to a new id column-------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ALTER TABLE articles MODIFY Year INT NOT NULL;
+ALTER TABLE articles DROP PRIMARY KEY;
+ALTER TABLE articles ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthcommunications MODIFY Year INT NOT NULL;
+ALTER TABLE healthcommunications DROP PRIMARY KEY;
+ALTER TABLE healthcommunications ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthdisparities MODIFY Year INT NOT NULL;
+ALTER TABLE healthdisparities DROP PRIMARY KEY;
+ALTER TABLE healthdisparities ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE processimprovement MODIFY Year INT NOT NULL;
+ALTER TABLE processimprovement DROP PRIMARY KEY;
+ALTER TABLE processimprovement ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthinformationtechnology MODIFY Year INT NOT NULL;
+ALTER TABLE healthinformationtechnology DROP PRIMARY KEY;
+ALTER TABLE healthinformationtechnology ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthdesign MODIFY Year INT NOT NULL;
+ALTER TABLE healthdesign DROP PRIMARY KEY;
+ALTER TABLE healthdesign ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthcarelawpolicy MODIFY Year INT NOT NULL;
+ALTER TABLE healthcarelawpolicy DROP PRIMARY KEY;
+ALTER TABLE healthcarelawpolicy ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE biomedicalmedicaldevices MODIFY Year INT NOT NULL;
+ALTER TABLE biomedicalmedicaldevices DROP PRIMARY KEY;
+ALTER TABLE biomedicalmedicaldevices ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE digitalhealth MODIFY Year INT NOT NULL;
+ALTER TABLE digitalhealth DROP PRIMARY KEY;
+ALTER TABLE digitalhealth ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE healthcareentrepreneurship MODIFY Year INT NOT NULL;
+ALTER TABLE healthcareentrepreneurship DROP PRIMARY KEY;
+ALTER TABLE healthcareentrepreneurship ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE biotechnologyinnovation MODIFY Year INT NOT NULL;
+ALTER TABLE biotechnologyinnovation DROP PRIMARY KEY;
+ALTER TABLE biotechnologyinnovation ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE pharmaceuticalinnovation MODIFY Year INT NOT NULL;
+ALTER TABLE pharmaceuticalinnovation DROP PRIMARY KEY;
+ALTER TABLE pharmaceuticalinnovation ADD COLUMN id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
